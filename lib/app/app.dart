@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:starter_kit/shared/util/theme_provider.dart';
 
-import 'app/app_constants.dart';
-import 'app/app_theme.dart';
-import 'router/app_router.dart';
+import '../shared/util/theme_provider.dart';
+import 'app_constants.dart';
+import 'app_theme.dart';
+import '../router/app_router.dart';
 
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});

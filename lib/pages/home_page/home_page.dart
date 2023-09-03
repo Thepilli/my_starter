@@ -1,17 +1,12 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:io';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:starter_kit/app/app_colors.dart';
-import 'package:starter_kit/models/album.dart';
-import 'package:starter_kit/router/app_router.dart';
-import 'package:starter_kit/shared/extensions/build_context.dart';
-import 'package:starter_kit/shared/util/theme_provider.dart';
+
+import '../../app/app_colors.dart';
+import '../../router/app_router.dart';
+import '../../shared/util/theme_provider.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});

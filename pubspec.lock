@@ -218,10 +218,18 @@ packages:
     source: hosted
     version: "1.0.6"
   custom_lint:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: custom_lint
       sha256: "837821e4619c167fd5a547b03bb2fc6be7e65b800ec75528848429705c31ceba"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.3"
+  custom_lint_builder:
+    dependency: transitive
+    description:
+      name: custom_lint_builder
+      sha256: "3537d50202568994a6f42b1f2953aed6292fc5ecf83e45237af73f64aff2be72"
       url: "https://pub.dev"
     source: hosted
     version: "0.5.3"
@@ -310,14 +318,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.3.1"
-  flutter_hooks:
-    dependency: transitive
-    description:
-      name: flutter_hooks
-      sha256: "6ae13b1145c589112cbd5c4fda6c65908993a9cb18d4f82042e9c28dd9fbf611"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.20.1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -424,14 +424,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
-  hooks_riverpod:
-    dependency: "direct main"
+  hotreloader:
+    dependency: transitive
     description:
-      name: hooks_riverpod
-      sha256: "04a8a526db4c04139f6e5d318ef5079832daa1327a485ad391faf1b6bb203960"
+      name: hotreloader
+      sha256: "728c0613556c1d153f7e7f4a367cffacc3f5a677d7f6497a1c2b35add4e6dacf"
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.10"
+    version: "3.0.6"
   http:
     dependency: "direct main"
     description:
@@ -712,6 +712,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
+  riverpod_lint:
+    dependency: "direct main"
+    description:
+      name: riverpod_lint
+      sha256: a26fbbd4b948c1a009264418bd6f9b153be75317ac61a2c37ed3920af2e135e4
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.3"
   rxdart:
     dependency: transitive
     description:
@@ -901,6 +909,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  vm_service:
+    dependency: transitive
+    description:
+      name: vm_service
+      sha256: c538be99af830f478718b51630ec1b6bee5e74e52c8a802d328d9e71d35d2583
+      url: "https://pub.dev"
+    source: hosted
+    version: "11.10.0"
   watcher:
     dependency: transitive
     description:

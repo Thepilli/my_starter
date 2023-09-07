@@ -32,7 +32,7 @@ class HomePage extends ConsumerWidget {
             MaterialButton(
               color: AppColors.blue,
               onPressed: () {
-                context.pushNamed(Routes.deezer.name);
+                context.pushNamed(Routes.movie.name);
               },
               child: Text('Material button'),
             ),

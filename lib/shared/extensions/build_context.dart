@@ -6,7 +6,7 @@ extension BuildContextExtension on BuildContext {
   ColorScheme get colorScheme => _theme.colorScheme;
   Color get primary => _theme.colorScheme.primary;
   Color get secondary => _theme.colorScheme.secondary;
-  Color get primaryContainer => _theme.colorScheme.primaryContainer;
+  Color get background => _theme.colorScheme.background;
   double get sizeWidth => MediaQuery.of(this).size.width;
   double get sizeHeight => MediaQuery.of(this).size.height;
 }

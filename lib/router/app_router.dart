@@ -8,20 +8,24 @@ part 'app_router.g.dart';
 
 enum Routes {
   home,
-  deezer,
 }
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
 
 @Riverpod(keepAlive: true)
 GoRouter goRouter(GoRouterRef ref) {
-  return GoRouter(routes: [
-    GoRoute(
-      path: '/',
-      name: Routes.home.name,
-      builder: (context, state) => HomePage(
-        key: state.pageKey,
+  return GoRouter(
+    initialLocation: '/',
+    navigatorKey: _rootNavigatorKey,
+    debugLogDiagnostics: false,
+    routes: [
+      GoRoute(
+        path: '/',
+        name: Routes.home.name,
+        builder: (context, state) => HomePage(
+          key: state.pageKey,
+        ),
       ),
-    ),
-  ]);
+    ],
+  );
 }

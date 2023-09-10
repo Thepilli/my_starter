@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:starter_kit/shared/extensions/build_context.dart';
 
 import '../../app/app_colors.dart';
+import '../extensions/build_context.dart';
 
 class MyRoundedButton extends StatelessWidget {
   final Color? color;

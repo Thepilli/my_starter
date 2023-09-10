@@ -2,10 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
+import 'package:starter_kit/shared/extensions/build_context.dart';
 
 import '../../app/app_colors.dart';
-import '../../router/app_router.dart';
 import '../../shared/util/theme_provider.dart';
 
 class HomePage extends ConsumerWidget {
@@ -31,9 +30,7 @@ class HomePage extends ConsumerWidget {
           children: [
             MaterialButton(
               color: AppColors.blue,
-              onPressed: () {
-                context.pushNamed(Routes.deezer.name);
-              },
+              onPressed: () {},
               child: Text('Material button'),
             ),
             ElevatedButton(
@@ -80,7 +77,10 @@ class HomePage extends ConsumerWidget {
                 FocusManager.instance.primaryFocus?.unfocus();
               },
               decoration: InputDecoration(
-                label: Text('data'),
+                label: Text(
+                  'data',
+                  style: context.textTheme.titleLarge?.copyWith(color: AppColors.txtDark),
+                ),
               ),
             ),
           ],

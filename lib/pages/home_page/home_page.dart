@@ -2,10 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
+import 'package:starter_kit/pages/home_page/animated_text.dart';
 
 import '../../app/app_colors.dart';
-import '../../router/app_router.dart';
 import '../../shared/util/theme_provider.dart';
 
 class HomePage extends ConsumerWidget {
@@ -32,7 +31,12 @@ class HomePage extends ConsumerWidget {
             MaterialButton(
               color: AppColors.blue,
               onPressed: () {
-                context.pushNamed(Routes.movie.name);
+                // context.pushNamed(Routes.movie.name);
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => AnimeText(),
+                    ));
               },
               child: Text('Material button'),
             ),

@@ -1,24 +1,24 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'app_router.dart';
+part of 'animated_text_provider.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$goRouterHash() => r'c8d00b0d1bc38f91752a050c9df0658567d7f214';
+String _$animeTextHash() => r'8e94b1481ab098f65140535971d0bdefde5d7798';
 
-/// See also [goRouter].
-@ProviderFor(goRouter)
-final goRouterProvider = Provider<GoRouter>.internal(
-  goRouter,
-  name: r'goRouterProvider',
+/// See also [AnimeText].
+@ProviderFor(AnimeText)
+final animeTextProvider = AutoDisposeNotifierProvider<AnimeText, bool>.internal(
+  AnimeText.new,
+  name: r'animeTextProvider',
   debugGetCreateSourceHash:
-      const bool.fromEnvironment('dart.vm.product') ? null : _$goRouterHash,
+      const bool.fromEnvironment('dart.vm.product') ? null : _$animeTextHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef GoRouterRef = ProviderRef<GoRouter>;
+typedef _$AnimeText = AutoDisposeNotifier<bool>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member

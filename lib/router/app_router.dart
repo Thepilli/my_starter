@@ -8,7 +8,7 @@ part 'app_router.g.dart';
 
 enum Routes {
   home,
-  intro,
+
   detail,
 }
 
@@ -17,12 +17,12 @@ final _rootNavigatorKey = GlobalKey<NavigatorState>();
 @Riverpod(keepAlive: true)
 GoRouter goRouter(GoRouterRef ref) {
   return GoRouter(
-    initialLocation: '/',
+    initialLocation: '/home',
     navigatorKey: _rootNavigatorKey,
     debugLogDiagnostics: false,
     routes: [
       GoRoute(
-        path: '/',
+        path: '/home',
         name: Routes.home.name,
         builder: (context, state) => HomePage(
           key: state.pageKey,

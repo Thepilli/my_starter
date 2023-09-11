@@ -5,18 +5,18 @@ import 'package:google_fonts/google_fonts.dart';
 class AppTextStyles {
   //Headings
   static TextStyle titleLarge = GoogleFonts.roboto(
-    fontSize: 20.sp,
+    fontSize: 22.sp,
     fontWeight: FontWeight.w700,
     letterSpacing: 0.4,
   );
 
   static TextStyle titleMedium = GoogleFonts.roboto(
-    fontSize: 16.sp,
+    fontSize: 20.sp,
     fontWeight: FontWeight.w900,
     letterSpacing: 0.32,
   );
   static TextStyle titleSmall = GoogleFonts.roboto(
-    fontSize: 16.sp,
+    fontSize: 18.sp,
     fontWeight: FontWeight.w700,
     letterSpacing: 0.28,
   );
@@ -34,7 +34,7 @@ class AppTextStyles {
   );
 
   static TextStyle bodySmall = GoogleFonts.poppins(
-    fontSize: 14.sp,
+    fontSize: 12.sp,
     fontWeight: FontWeight.w400,
     letterSpacing: 0.24,
   );

@@ -8,6 +8,8 @@ part 'app_router.g.dart';
 
 enum Routes {
   home,
+  intro,
+  detail,
 }
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
@@ -26,6 +28,17 @@ GoRouter goRouter(GoRouterRef ref) {
           key: state.pageKey,
         ),
       ),
+      // GoRoute(
+      //   path: '/detail',
+      //   name: Routes.detail.name,
+      //   pageBuilder: (context, state) {
+      //     final book = state.extra as Book;
+      //     return MaterialPage(
+      //       key: state.pageKey,
+      //       child: DetailPage(book: book),
+      //     );
+      //   },
+      // ),
     ],
   );
 }

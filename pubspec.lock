@@ -218,7 +218,7 @@ packages:
     source: hosted
     version: "1.0.6"
   custom_lint:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: custom_lint
       sha256: "837821e4619c167fd5a547b03bb2fc6be7e65b800ec75528848429705c31ceba"
@@ -322,10 +322,10 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints
-      sha256: a25a15ebbdfc33ab1cd26c63a6ee519df92338a9c10f122adda92938253bef04
+      sha256: "2118df84ef0c3ca93f96123a616ae8540879991b8b57af2f81b76a7ada49b2a4"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.3"
+    version: "2.0.2"
   flutter_riverpod:
     dependency: "direct main"
     description:
@@ -713,7 +713,7 @@ packages:
     source: hosted
     version: "2.3.1"
   riverpod_lint:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: riverpod_lint
       sha256: a26fbbd4b948c1a009264418bd6f9b153be75317ac61a2c37ed3920af2e135e4

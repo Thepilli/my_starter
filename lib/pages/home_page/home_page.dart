@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:starter_kit/pages/home_page/animated_text.dart';
+import 'package:starter_kit/shared/extensions/build_context.dart';
 
 import '../../app/app_colors.dart';
 import '../../shared/util/theme_provider.dart';
@@ -30,14 +30,7 @@ class HomePage extends ConsumerWidget {
           children: [
             MaterialButton(
               color: AppColors.blue,
-              onPressed: () {
-                // context.pushNamed(Routes.movie.name);
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => AnimeText(),
-                    ));
-              },
+              onPressed: () {},
               child: Text('Material button'),
             ),
             ElevatedButton(
@@ -84,7 +77,10 @@ class HomePage extends ConsumerWidget {
                 FocusManager.instance.primaryFocus?.unfocus();
               },
               decoration: InputDecoration(
-                label: Text('data'),
+                label: Text(
+                  'data',
+                  style: context.textTheme.titleLarge?.copyWith(color: AppColors.txtDark),
+                ),
               ),
             ),
           ],

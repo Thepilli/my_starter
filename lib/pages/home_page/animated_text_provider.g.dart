@@ -6,7 +6,7 @@ part of 'animated_text_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$animeTextHash() => r'8e94b1481ab098f65140535971d0bdefde5d7798';
+String _$animeTextHash() => r'b878794bf744a350520182a3d84a541feaf10d2b';
 
 /// See also [AnimeText].
 @ProviderFor(AnimeText)

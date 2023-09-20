@@ -23,4 +23,7 @@ class ImagePath {
   static const String rect_h = 'assets/images/rect_h.png';
   static const String rect_v = 'assets/images/rect_v.png';
   static const String rect_trans = 'assets/images/rect_trans.png';
+  static const String bonsai = 'assets/images/bonsai.png';
+  static const String sky = 'assets/images/sky.png';
+  static const String night = 'assets/images/night.png';
 }

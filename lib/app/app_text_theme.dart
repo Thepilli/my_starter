@@ -12,6 +12,7 @@ class AppTextTheme {
       titleSmall: AppTextStyles.titleSmall.copyWith(color: AppColors.txtDark),
       bodyLarge: AppTextStyles.bodyLarge.copyWith(color: AppColors.txtDark),
       bodyMedium: AppTextStyles.bodyMedium.copyWith(color: AppColors.txtDark),
+      labelMedium: AppTextStyles.labelMedium.copyWith(color: AppColors.txtLight),
       bodySmall: AppTextStyles.bodySmall.copyWith(color: AppColors.txtDark),
     );
   }
@@ -24,6 +25,7 @@ class AppTextTheme {
       titleSmall: AppTextStyles.titleSmall.copyWith(color: AppColors.txtLight),
       bodyLarge: AppTextStyles.bodyLarge.copyWith(color: AppColors.txtLight),
       bodyMedium: AppTextStyles.bodyMedium.copyWith(color: AppColors.txtLight),
+      labelMedium: AppTextStyles.labelMedium.copyWith(color: AppColors.txtDark),
       bodySmall: AppTextStyles.bodySmall.copyWith(color: AppColors.txtLight),
     );
   }

@@ -1,13 +1,9 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last
 
 import 'package:flutter/material.dart';
-import 'package:starter_kit/app/app_colors.dart';
 import 'package:starter_kit/models/movie.dart';
 import 'package:starter_kit/pages/movie_page/animated_offset.dart';
 import 'package:starter_kit/pages/movie_page/movie_detail.dart';
-import 'package:starter_kit/shared/extensions/build_context.dart';
-import 'package:starter_kit/shared/widgets/animated_button.dart';
-import 'package:starter_kit/shared/widgets/my_rounded_button.dart';
 
 class MoviePage extends StatefulWidget {
   const MoviePage({super.key});

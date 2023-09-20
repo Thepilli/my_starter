@@ -7,11 +7,11 @@ class AppColors {
 
 //light
 
-  static const primaryLight = Color(0xFFFF756A);
-  static const secondaryLight = Color(0xFFF9B2A0); //used for activated switchers
-  static const backgroundLight = Color(0xFFF5F6F4);
-  static const scaffoldLight = Color(0xFFFCE2D1);
-  static const formFillLight = Color(0xFFFFF8EE);
+  static const primaryLight = Color(0xFF5AC78C);
+  static const secondaryLight = Color(0xFF151615); //used for activated switchers
+  static const backgroundLight = Color(0xFFF2F2F2);
+  static const scaffoldLight = Color(0xFFF2F2F2);
+  static const formFillLight = Color(0xFFFFFFFF);
 
   static const chipColorLight = Color(0xFFDBE3FF);
   static const chipTextLight = Color(0xFF88A4E8);
@@ -36,16 +36,16 @@ class AppColors {
   static const drawerShadowDark = Color(0xff2A2A2A);
 
   //gradient
-  static const gradient1 = Color(0xFFDA529C);
+  static const gradient1 = Color(0xFFDF4F4F);
   static const gradient2 = Color(0xFFED8770);
   static const gradient3 = Color(0xFF9383AD);
   static const gradient4 = Color(0xFF2C3252);
 
   //util
-  static const txtLight = Color(0xFFF9E4D1);
-  static const txtLightSec = Color(0xFF979894);
-  static const txtDark = Color(0xFF334654);
-  static const txtDarkSec = Color(0xFF726D6A);
+  static const txtLight = Color(0xFFFFFFFF);
+  static const txtLightSec = Color(0xFFA0A4B4);
+  static const txtDark = Color(0xFF151615);
+  static const txtDarkSec = Color(0xFFA4A4A4);
 
   static const updateNotificationColorLight = Color(0xFF4CAF50); // Green color
   static const updateNotificationColorDark = Color(0xFF00796B); // Dark green color

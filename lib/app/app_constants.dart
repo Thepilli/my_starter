@@ -7,6 +7,7 @@ class AppStrings {
 }
 
 const animationDuration = Duration(milliseconds: 400);
+const double padHor = 20;
 
 class IconPath {
   static const String add_to_cart = 'assets/icons/add_to_cart.svg';

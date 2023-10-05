@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../router/app_router.dart';
 import '../shared/util/theme_provider.dart';
 import 'app_constants.dart';
 import 'app_theme.dart';
-import '../router/app_router.dart';
 
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});
@@ -25,6 +25,7 @@ class MyApp extends ConsumerWidget {
             title: AppStrings.appName,
             darkTheme: AppTheme.darkTheme,
             theme: AppTheme.lightTheme,
+            // themeMode: ThemeMode.dark,
             themeMode: isDarkMode ? ThemeMode.dark : ThemeMode.light,
             routerDelegate: goRouter.routerDelegate,
             routeInformationParser: goRouter.routeInformationParser,

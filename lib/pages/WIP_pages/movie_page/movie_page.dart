@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:starter_kit/models/movie.dart';
-import 'package:starter_kit/pages/movie_page/animated_offset.dart';
-import 'package:starter_kit/pages/movie_page/movie_detail.dart';
+import 'package:starter_kit/pages/WIP_pages/movie_page/animated_offset.dart';
+import 'package:starter_kit/pages/WIP_pages/movie_page/movie_detail.dart';
 
 class MoviePage extends StatefulWidget {
   const MoviePage({super.key});

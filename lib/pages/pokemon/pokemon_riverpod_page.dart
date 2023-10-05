@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:starter_kit/models/pokemon_all.dart';
-import 'package:starter_kit/providers/pokemon_all_provider.dart';
+import 'package:starter_kit/pages/pokemon/pokemon_all_provider.dart';
 
 class PokemonRiverpodPage extends ConsumerWidget {
   const PokemonRiverpodPage({super.key});

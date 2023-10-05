@@ -1,16 +1,23 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:starter_kit/firebase_options.dart';
 
 import 'app/app.dart';
 import 'observers.dart';
 
 void main() async {
-  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarIconBrightness: Brightness.dark, statusBarColor: Colors.white30, systemNavigationBarColor: Colors.transparent));
+  // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+  //     statusBarIconBrightness: Brightness.light,
+  //     statusBarColor: Colors.transparent,
+  //     systemNavigationBarColor: Colors.transparent));
   WidgetsFlutterBinding.ensureInitialized();
-  // await dotenv.load(fileName: ".env");
-  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  FirebaseUIAuth.configureProviders([
+    PhoneAuthProvider(),
+  ]);
+
   runApp(ProviderScope(
     observers: [
       Observers(),

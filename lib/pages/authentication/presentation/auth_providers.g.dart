@@ -1,26 +1,27 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'vertical_provider.dart';
+part of 'auth_providers.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$verticalIndexHash() => r'ea7b38af45ff6a819fe153c9b686ecd3b38ad67c';
+String _$authProvidersHash() => r'ae6cefe8190c6d4e0c24eed661e7889031bfabda';
 
-/// See also [VerticalIndex].
-@ProviderFor(VerticalIndex)
-final verticalIndexProvider =
-    AutoDisposeNotifierProvider<VerticalIndex, int>.internal(
-  VerticalIndex.new,
-  name: r'verticalIndexProvider',
+/// See also [authProviders].
+@ProviderFor(authProviders)
+final authProvidersProvider =
+    Provider<List<AuthProvider<AuthListener, AuthCredential>>>.internal(
+  authProviders,
+  name: r'authProvidersProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
       ? null
-      : _$verticalIndexHash,
+      : _$authProvidersHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef _$VerticalIndex = AutoDisposeNotifier<int>;
+typedef AuthProvidersRef
+    = ProviderRef<List<AuthProvider<AuthListener, AuthCredential>>>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member

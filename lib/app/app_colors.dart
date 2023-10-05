@@ -38,7 +38,7 @@ class AppColors {
   //gradient
   static const gradient1 = Color(0xFFDF4F4F);
   static const gradient2 = Color(0xFFED8770);
-  static const gradient3 = Color(0xFF9383AD);
+  static const gradient3 = Color(0xFF01315A);
   static const gradient4 = Color(0xFF2C3252);
 
   //util

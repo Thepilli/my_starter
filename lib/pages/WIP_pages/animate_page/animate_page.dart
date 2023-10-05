@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:starter_kit/app/app_colors.dart';
 import 'package:starter_kit/app/app_constants.dart';
-import 'package:starter_kit/pages/animate_page/animation_trigger.dart';
-import 'package:starter_kit/pages/animate_page/slidein.dart';
+import 'package:starter_kit/pages/WIP_pages/animate_page/animation_trigger.dart';
+import 'package:starter_kit/pages/WIP_pages/animate_page/slidein.dart';
 
 class AnimatePage extends ConsumerWidget {
   const AnimatePage({super.key});

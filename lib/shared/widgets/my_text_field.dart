@@ -7,14 +7,16 @@ import 'size_fade_switcher.dart';
 class MyTextField extends StatelessWidget {
   final String label;
   final String? errorText;
-  final void Function(String) onChanged;
+  final void Function(String)? onChanged;
+  final TextEditingController? controller;
   final bool obscureText;
   const MyTextField({
     super.key,
     required this.label,
     this.errorText,
     this.obscureText = false,
-    required this.onChanged,
+    this.onChanged,
+    this.controller,
   });
 
   @override
@@ -22,6 +24,7 @@ class MyTextField extends StatelessWidget {
     return Column(
       children: [
         TextField(
+          controller: controller,
           onChanged: onChanged,
           obscureText: obscureText,
           onTapOutside: (event) {

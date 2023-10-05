@@ -4,18 +4,18 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppTextStyles {
   //Headings
-  static TextStyle titleLarge = GoogleFonts.robotoSlab(
+  static TextStyle titleLarge = GoogleFonts.spaceGrotesk(
     fontSize: 24.sp,
     fontWeight: FontWeight.normal,
     letterSpacing: 0.4,
   );
 
-  static TextStyle titleMedium = GoogleFonts.robotoSlab(
+  static TextStyle titleMedium = GoogleFonts.spaceGrotesk(
     fontSize: 20.sp,
     fontWeight: FontWeight.normal,
     letterSpacing: 0.32,
   );
-  static TextStyle titleSmall = GoogleFonts.robotoSlab(
+  static TextStyle titleSmall = GoogleFonts.spaceGrotesk(
     fontSize: 18.sp,
     fontWeight: FontWeight.normal,
     letterSpacing: 0.28,

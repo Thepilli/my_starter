@@ -34,18 +34,19 @@ class AppTheme {
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         backgroundColor: AppColors.backgroundLight,
       ),
-      inputDecorationTheme: InputDecorationTheme(
-          enabledBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(20), borderSide: const BorderSide(color: AppColors.primaryLight)),
-          focusedBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(20), borderSide: const BorderSide(color: AppColors.primaryLight)),
-          disabledBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(20), borderSide: const BorderSide(color: AppColors.primaryLight)),
-          labelStyle: AppTextStyles.bodyMedium.copyWith(color: AppColors.primaryLight),
-          hintStyle: AppTextStyles.bodyMedium.copyWith(color: AppColors.primaryLight),
-          filled: true,
-          fillColor: AppColors.formFillLight,
-          alignLabelWithHint: true),
+      // inputDecorationTheme: InputDecorationTheme(
+      //     enabledBorder: OutlineInputBorder(
+      //         borderRadius: BorderRadius.circular(20), borderSide: const BorderSide(color: AppColors.primaryLight)),
+      //     focusedBorder: OutlineInputBorder(
+      //         borderRadius: BorderRadius.circular(20), borderSide: const BorderSide(color: AppColors.primaryLight)),
+      //     disabledBorder: OutlineInputBorder(
+      //         borderRadius: BorderRadius.circular(20), borderSide: const BorderSide(color: AppColors.primaryLight)),
+      //     labelStyle: AppTextStyles.bodyMedium.copyWith(color: AppColors.primaryLight),
+      //     hintStyle: AppTextStyles.bodyMedium.copyWith(color: AppColors.primaryLight),
+      //     filled: true,
+      //     fillColor: AppColors.formFillLight,
+      //     alignLabelWithHint: true),
+      splashFactory: NoSplash.splashFactory,
     );
   }
 
@@ -90,6 +91,7 @@ class AppTheme {
           filled: true,
           fillColor: AppColors.formFillDark,
           alignLabelWithHint: true),
+      splashFactory: NoSplash.splashFactory,
     );
   }
 }
